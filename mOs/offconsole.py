@@ -66,7 +66,19 @@ while cmd != '':
         print("Successfully!")
     if cmd == "credits":
         print("Noobisbro, 2021.")
-    
+    if cmd == "calc":
+        do = input("What do you want to do: ")
+        x = int(input("first: "))
+        y = int(input("second: "))
+        if do == "*":
+            resdo = x*y
+        elif do == "/":
+            resdo = x/y
+        elif do == "-":
+            resdo = x-y
+        elif do == "+":
+            resdo = x+y
+        print(resdo)
 
 
 
